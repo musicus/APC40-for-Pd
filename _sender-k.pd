@@ -1,0 +1,6 @@
+#N canvas 622 147 403 287 10;
+#X obj 29 77 inlet;
+#X obj 29 213 send \$1-\$2;
+#X floatatom 29 134 5 0 0 0 - - -, f 5;
+#X connect 0 0 2 0;
+#X connect 2 0 1 0;
