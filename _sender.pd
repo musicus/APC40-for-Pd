@@ -1,0 +1,11 @@
+#N canvas 622 147 242 257 10;
+#X obj 29 106 select 0;
+#X obj 29 29 inlet;
+#X obj 29 203 send \$1-\$2;
+#X msg 29 133 0;
+#X msg 74 133 1;
+#X connect 0 0 3 0;
+#X connect 0 1 4 0;
+#X connect 1 0 0 0;
+#X connect 3 0 2 0;
+#X connect 4 0 2 0;

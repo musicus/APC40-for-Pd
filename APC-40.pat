@@ -1,4 +1,4 @@
-#N canvas 453 30 518 664 10;
+#N canvas 9 35 518 664 10;
 #X obj 17 449 vsl 28 128 0 127 0 0 empty bs-1 1 12 -9 0 10 -262144
 -1 -1 0 1;
 #X obj 47 449 vsl 28 128 0 127 0 0 empty bs-2 2 12 -9 0 10 -262144
@@ -919,6 +919,7 @@
 #X text 259 403 Arm;
 #X text 256 378 Solo;
 #X text 259 353 Act.;
+#X text 28 309 1 2 3 4 5 6 7 8 Mtr;
 #X text 14 60 Clip Launch/Session Overview;
 #X text 257 60 Scene;
 #X text 14 230 clip stop;
@@ -963,15 +964,6 @@
 1;
 #X obj 467 203 tgl 25 0 empty send-C C 9 13 0 10 -191407 -4034 -1 0
 1;
-#X text 28 309 1;
-#X text 58 309 2;
-#X text 88 309 3;
-#X text 118 309 4;
-#X text 148 309 5;
-#X text 178 309 6;
-#X text 208 309 7;
-#X text 238 309 8;
-#X text 259 309 Mas.;
 #X connect 0 0 10 0;
 #X connect 1 0 11 0;
 #X connect 2 0 12 0;
